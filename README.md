@@ -1,6 +1,9 @@
 # FINM-25000-HW-3-Schulz
 Built live paper trading system in python to trade on Alpaca. Uses random forest machine learning model and PCA (on several technical indicators) to invest intelligently in a stock of the users choosing. Provides pop-up of charts representing backtest results of the strategy being applied to historical data, as well as performance metrics table. 
 
+## How to run
+Create free Alpaca trading account. Input personal paper api key and paper secret key into config.py. Run main in jupyter notebook and imput desired stock ticker. 
+
 ## Features
 
 * **Streamlit backtester:** Connects to Alpaca via API, pulls historical stock data, and backtests the random forest trading strategy.
